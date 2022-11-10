@@ -1,0 +1,906 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Série 2 : Equilibre du consommateur &#8212; FSJESM, UH2</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/translations.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Série 3 : Fonction de la demande" href="S%C3%A9rie3.html" />
+    <link rel="prev" title="Série 1 : Fonction d’utilité" href="S%C3%A9rie1.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="fr">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.JPG" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">FSJESM, UH2</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Microéconomie I
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="S%C3%A9rie1.html">
+   Série 1 : Fonction d’utilité
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Série 2 : Equilibre du consommateur
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S%C3%A9rie3.html">
+   Série 3 : Fonction de la demande
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S%C3%A9rie4.html">
+   Série 4 : Fonction de production
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+                title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/Série2.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Dépôt source"><i
+                    class="fab fa-github"></i>dépôt</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FSérie2.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Ouvrez un problème"><i class="fas fa-lightbulb"></i>signaler un problème</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+        title="Mode plein écran"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contenu
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-1">
+   Exercice 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-2">
+   Exercice 2
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-3">
+   Exercice 3
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-4">
+   Exercice 4
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-5">
+   Exercice 5
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-6">
+   Exercice 6
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Série 2 : Equilibre du consommateur</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contenu </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-1">
+   Exercice 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-2">
+   Exercice 2
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-3">
+   Exercice 3
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-4">
+   Exercice 4
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-5">
+   Exercice 5
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-6">
+   Exercice 6
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="section" id="serie-2-equilibre-du-consommateur">
+<h1>Série 2 : Equilibre du consommateur<a class="headerlink" href="#serie-2-equilibre-du-consommateur" title="Lien permanent vers ce titre">¶</a></h1>
+<p><i>Conçue et développée par l’Equipe de Micro 1</i></p>
+<p><i> Novembre 2022</i></p>
+<div class="section" id="exercice-1">
+<h2>Exercice 1<a class="headerlink" href="#exercice-1" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="admonition-enonce-de-l-exercice-1 admonition">
+<p class="admonition-title">Enoncé de l’exercice 1</p>
+<p>Soient deux biens X et Y dont les prix unitaires sont respectivement de 20 et 25 DHs. Le consommateur dispose d’un revenu <span class="math notranslate nohighlight">\(R= 360\)</span> DHs qu’il dépense entièrement.</p>
+<p>Le tableau suivant indique l’utilité marginale des deux biens X et Y.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Q</strong></p></th>
+<th class="head"><p>1</p></th>
+<th class="head"><p>2</p></th>
+<th class="head"><p>3</p></th>
+<th class="head"><p>4</p></th>
+<th class="head"><p>5</p></th>
+<th class="head"><p>6</p></th>
+<th class="head"><p>7</p></th>
+<th class="head"><p>8</p></th>
+<th class="head"><p>9</p></th>
+<th class="head"><p>10</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Umx</strong></p></td>
+<td><p>120</p></td>
+<td><p>100</p></td>
+<td><p>90</p></td>
+<td><p>85</p></td>
+<td><p>80</p></td>
+<td><p>75</p></td>
+<td><p>70</p></td>
+<td><p>64</p></td>
+<td><p>60</p></td>
+<td><p>55</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Umy</strong></p></td>
+<td><p>160</p></td>
+<td><p>140</p></td>
+<td><p>130</p></td>
+<td><p>120</p></td>
+<td><p>110</p></td>
+<td><p>100</p></td>
+<td><p>90</p></td>
+<td><p>80</p></td>
+<td><p>70</p></td>
+<td><p>60</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="simple">
+<li><p>Rappeler la définition du <span class="math notranslate nohighlight">\(TMS_{xy}\)</span>.</p></li>
+<li><p>Calculer les différentes valeurs du <span class="math notranslate nohighlight">\(TMS_{xy}\)</span></p></li>
+<li><p>Etablir l’équation de la droite budgétaire du consommateur.</p></li>
+<li><p>Déterminer les quantités demandées à l’équilibre. <span class="math notranslate nohighlight">\(\textit{Justifier votre réponse!}\)</span></p></li>
+</ol>
+</div>
+<center><font color='red'>Vous avez 5 min !</font></center>
+<div class="attention dropdown admonition">
+<p class="admonition-title"><font color='blue'>Réponse de l’exercice 1</font></p>
+<ol>
+<li><p>Rappeler la définition du TMSxy</p>
+<div class="math notranslate nohighlight">
+\[
+    TMS_{xy} = \dfrac{Umx}{Umy}
+    \]</div>
+</li>
+<li><p>Calculer les différentes valeurs du TMSxy</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Q</strong></p></th>
+<th class="head"><p>1</p></th>
+<th class="head"><p>2</p></th>
+<th class="head"><p>3</p></th>
+<th class="head"><p>4</p></th>
+<th class="head"><p>5</p></th>
+<th class="head"><p>6</p></th>
+<th class="head"><p>7</p></th>
+<th class="head"><p>8</p></th>
+<th class="head"><p>9</p></th>
+<th class="head"><p>10</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Umx</strong></p></td>
+<td><p>120</p></td>
+<td><p>100</p></td>
+<td><p>90</p></td>
+<td><p>85</p></td>
+<td><p>80</p></td>
+<td><p>75</p></td>
+<td><p>70</p></td>
+<td><p>64</p></td>
+<td><p>60</p></td>
+<td><p>55</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Umy</strong></p></td>
+<td><p>160</p></td>
+<td><p>140</p></td>
+<td><p>130</p></td>
+<td><p>120</p></td>
+<td><p>110</p></td>
+<td><p>100</p></td>
+<td><p>90</p></td>
+<td><p>80</p></td>
+<td><p>70</p></td>
+<td><p>60</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>TMS</strong></p></td>
+<td><p>0.75</p></td>
+<td><p>0.71</p></td>
+<td><p>0.69</p></td>
+<td><p>0.70</p></td>
+<td><p>0.72</p></td>
+<td><p>0.75</p></td>
+<td><p>0.77</p></td>
+<td><p>0.8</p></td>
+<td><p>0.85</p></td>
+<td><p>0.91</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Etablir l’équation de la droite budgétaire du consommateur.</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+R=Xp_x+Yp_y  &amp; \Rightarrow 360= 20X +25Y \\
+              &amp; \Rightarrow 25Y = 360 - 20X \\
+              &amp; \Rightarrow Y = 14.4 - 0.8X \\
+\end{split}\]</div>
+<p>4- Déterminer les quantités demandées à l’équilibre. Justifier votre réponse!</p>
+<p>A l’équilibre :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\dfrac{Umx}{Px}=\dfrac{Umy}{Py} &amp; \Rightarrow \dfrac{Umx}{Umy}=\dfrac{Px}{Py} \\
+                                &amp; \Rightarrow \dfrac{Umx}{Umy}= 0.8 \\
+\end{split}\]</div>
+<p>Or, d’après le tableau, on constate que :</p>
+<div class="math notranslate nohighlight">
+\[Xpx+ Ypy = 20X+25Y = 8 \times (20+25) = 360 = R\]</div>
+<p>Donc les quantitiés optimales sont données par le couple :</p>
+<div class="math notranslate nohighlight">
+\[
+(X^{Opt},Y^{Opt}) = (8,8)
+\]</div>
+</div>
+</div>
+<div class="section" id="exercice-2">
+<h2>Exercice 2<a class="headerlink" href="#exercice-2" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="admonition-enonce-de-l-exercice-2 admonition">
+<p class="admonition-title">Enoncé de l’exercice 2</p>
+<p>Soit un consommateur dont on représente la relation de préférence par la fonction d’utilité suivante :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+U : \mathbb{R^{+}} \times \mathbb{R^{+}} &amp; \rightarrow \mathbb{R} \\
+(x, y)   &amp; \longmapsto x(2 + 3y)
+\end{split}\]</div>
+<p>On suppose que le revenu du consommateur est égal à <span class="math notranslate nohighlight">\(10\)</span>.</p>
+<p>1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité <span class="math notranslate nohighlight">\(U_1 = 10\)</span> et <span class="math notranslate nohighlight">\(U_2 = 16\)</span>.</p>
+<p>2- Calculer les utilités marginales et le TMS du bien Y au bien X.</p>
+<p>3- Ecrire l’équation de la droite de budget en notant px et py les prix respectifs des biens
+X et Y. Déterminer sa pente. On donne <span class="math notranslate nohighlight">\((p_x, p_y) = (2,2)\)</span></p>
+<p>4- Déterminez l’optimum du consommateur.</p>
+</div>
+<center><font color='red'>Vous avez 5 min !</font></center>
+<div class="attention dropdown admonition">
+<p class="admonition-title"><font color='blue'>Réponse de l’exercice 2</font></p>
+<p>Soit un consommateur dont on représente la relation de préférence par la fonction d’utilité suivante :</p>
+<div class="math notranslate nohighlight">
+\[
+U(x, y) = x(2 + 3y)
+\]</div>
+<p>On suppose que le revenu du consommateur est égal à 10.</p>
+<p>1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité <span class="math notranslate nohighlight">\(U_1 = 10\)</span> et <span class="math notranslate nohighlight">\(U_2 = 16\)</span>.</p>
+<p>Soit U = <span class="math notranslate nohighlight">\(\overline{U}\)</span> fixe :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}U = x(2 + 3y)  &amp; \Rightarrow 3y +2 = \dfrac{\overline{U}}{x} \\
+                &amp; \Rightarrow 3y = \dfrac{\overline{U}}{x}-2 \\
+                &amp; \Rightarrow y = \dfrac{\overline{U}}{3x} - \dfrac{2}{3} \\
+\end{split}\]</div>
+<p>Pour U = 10, la courbe d’indifférence serait</p>
+<div class="math notranslate nohighlight">
+\[
+\overline{U} = 10 \Rightarrow y = \dfrac{10}{3x} - \dfrac{2}{3} 
+\]</div>
+<p>Pour U = 16, la courbe d’indifférence serait</p>
+<div class="math notranslate nohighlight">
+\[
+\overline{U} = 16 \Rightarrow y = \dfrac{16}{3x} - \dfrac{2}{3} 
+\]</div>
+<p>2- Calculer les utilités marginales et le TMS du bien Y au bien X.</p>
+<p>On a :</p>
+<p><span class="math notranslate nohighlight">\(Um_x = \dfrac{dU(x,y)}{dx}=2+3y\)</span> et <span class="math notranslate nohighlight">\(Um_y = \dfrac{dU(x,y)}{dy} =3x\)</span></p>
+<p>Donc :</p>
+<div class="math notranslate nohighlight">
+\[
+TMS = \dfrac{Umx}{Umy} \Rightarrow TMS = \dfrac{2+3y}{3x}
+\]</div>
+<p>3- Ecrire l’équation de la droite de budget en notant px et py les prix respectifs des biens
+X et Y. Déterminer sa pente. On donne <span class="math notranslate nohighlight">\((p_x, p_y) = (2,2)\)</span></p>
+<p>La droite du budget</p>
+<p><span class="math notranslate nohighlight">\( R= XPx+Ypy \Rightarrow Y= \dfrac{-Px}{Py}X+\dfrac{R}{Py} \)</span></p>
+<p>Pour <span class="math notranslate nohighlight">\(P= (Px, Py) = (2,2)\)</span> et <span class="math notranslate nohighlight">\(R=10\)</span></p>
+<p>La droite du budget est donnée par : <span class="math notranslate nohighlight">\(Y= -X+ 5\)</span></p>
+<p>4- Déterminez l’optimum du consommateur.</p>
+<p>A l’équilibre :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\dfrac{Umx}{Px}=\dfrac{Umy}{Py} &amp; \Rightarrow  Umx= Umy ~~~ (car~~ Px=Py=2)\\ 
+                                   &amp; \Rightarrow 2 +3y = 3x \\
+                                &amp; \Rightarrow y= x-\dfrac{2}{3} \end{split}\]</div>
+<p>On remplace <span class="math notranslate nohighlight">\(y= x-\dfrac{2}{3} \)</span> par sa valeur dans l’équation de la droite budgétaire, on aura :</p>
+<div class="math notranslate nohighlight">
+\[
+x = \dfrac{17}{6} ~~~;~~~ y = \dfrac{13}{6}
+\]</div>
+</div>
+</div>
+<div class="section" id="exercice-3">
+<h2>Exercice 3<a class="headerlink" href="#exercice-3" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="admonition-enonce-de-l-exercice-3 admonition">
+<p class="admonition-title">Enoncé de l’exercice 3</p>
+<p>Soit un consommateur disposant d’un revenu <span class="math notranslate nohighlight">\(R= 120\)</span> et consommant deux biens, X et
+Y, dont les prix sont <span class="math notranslate nohighlight">\(P_x = 4\)</span> et <span class="math notranslate nohighlight">\(P_y = 3\)</span>. Les préférences de ce consommateur sont
+représentées par la fonction d’utilité suivante :</p>
+<div class="math notranslate nohighlight">
+\[
+U(X,Y) = 3XY
+\]</div>
+<ol class="simple">
+<li><p>Déterminer les quantités à consommer à l’équilibre à l’aide de la méthode de substitution. Essayez d’être précis!</p></li>
+<li><p>Quel est le niveau d’utilité obtenu ?</p></li>
+</ol>
+</div>
+<center><font color='red'>Vous avez 5 min !</font></center>
+<div class="attention dropdown admonition">
+<p class="admonition-title"><font color='blue'>Réponse de l’exercice 3</font></p>
+<p>Soit un consommateur disposant d’un revenu R= 120 et consommant deux biens, X et
+Y, dont les prix sont Px = 4 et Py = 3. Les préférences de ce consommateur sont
+représentées par la fonction d’utilité suivante :</p>
+<div class="math notranslate nohighlight">
+\[
+U(X,Y) = 3XY
+\]</div>
+<ol class="simple">
+<li><p>Déterminer les quantités à consommer à l’équilibre à l’aide de la éthode de substitution</p></li>
+</ol>
+<p>On a :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\{
+    \begin{array}{ll}
+    Max ~~ U(X,Y) \\ 
+    R = p_{x} X + p_{y} Y \\
+    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
+    \end{array}
+\right.
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\{
+    \begin{array}{ll}
+    Max ~~ U(X,Y) = 3XY ~~~ (1)\\ 
+    120 = 4 X + 3 Y ~~~ (2) \\
+    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
+    \end{array}
+\right.\end{split}\]</div>
+<p>EtapE 1 : On tire Y de l’éq. (2) * :</p>
+<p><i>Remarque : On peut utiliser X au lieu de Y</i></p>
+<div class="math notranslate nohighlight">
+\[
+    120 = 4 X + 3 Y  \Rightarrow   3 Y   = 120 - 4 X \Rightarrow     Y = 40 - 4/3 X 
+\]</div>
+<p>Etape 2 : On remplace Y par sa valeur dans U :</p>
+<div class="math notranslate nohighlight">
+\[
+U(X,Y) = 3XY= 3X (40-4/3X) = 120 X - 4X^{2}
+\]</div>
+<p>Etape 3 : Annuler la dérivée première de U en fonction de X et Vérifier que la dérivée seconde est négative.</p>
+<div class="math notranslate nohighlight">
+\[
+U' = 0  \Rightarrow 120 -8X = 0 \Rightarrow X = 15
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+U'' = -8 &lt; 0 
+\]</div>
+<p>Les quantités optimales sont données par  :</p>
+<p><span class="math notranslate nohighlight">\( X^{*} = 15\)</span> et <span class="math notranslate nohighlight">\(Y^{*} = 40-4/3 X = 20 \)</span></p>
+<p>Ainsi :</p>
+<div class="math notranslate nohighlight">
+\[
+(X^{*}, Y^{*}) = (15,20)
+\]</div>
+<ol class="simple">
+<li><p>Quel est le niveau d’utilité obtenu ?</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}U(X^{*}, Y^{*}) &amp;= 3X^{*}Y^{*}  \\
+&amp;= 3 \times 15 \times 20 \\
+&amp;= 900\end{split}\]</div>
+</div>
+</div>
+<div class="section" id="exercice-4">
+<h2>Exercice 4<a class="headerlink" href="#exercice-4" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="admonition-enonce-de-l-exercice-4 admonition">
+<p class="admonition-title">Enoncé de l’exercice 4</p>
+<p>Les préférences d’un consommateur sont représentées par la fonction d’utilité</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+U : \mathbb{R^{+}} \times \mathbb{R^{+}} &amp; \rightarrow \mathbb{R} \\
+(X, Y)   &amp; \longmapsto 3X^2Y
+\end{split}\]</div>
+<p>Supposons qu’il dispose d’un revenu <span class="math notranslate nohighlight">\(R =100\)</span> et fait face aux prix <span class="math notranslate nohighlight">\(p_x = 1\)</span> et <span class="math notranslate nohighlight">\(p_y = 2\)</span>.</p>
+<ol class="simple">
+<li><p>Donner l’équation de la droite budgétaire.</p></li>
+<li><p>Déterminer la combinaison optimale de X et Y, en utilisant la méthode de
+Lagrange. Déduire la satisfaction totale ? Il est supposé que les conditions de deuxième
+ordre sont vérifiées.</p></li>
+<li><p>Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
+4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.</p></li>
+<li><p>Sachant que le revenu diminue de 20%, trouver la nouvelle combinaison
+optimale ? Les prix restent constants.</p></li>
+<li><p>Sachant que les prix des biens X et Y augmentent respectivement de 15 DH et
+30 DH et que le revenu diminue de 20%, trouver alors la nouvelle combinaison optimale de X et Y ?</p></li>
+</ol>
+</div>
+<center><font color='red'>Vous avez 5 min !</font></center>
+<div class="attention dropdown admonition">
+<p class="admonition-title"><font color='blue'>Réponse de l’exercice 4</font></p>
+<p>Les préférences d’un consommateur sont reprÈsentÈes par la fonction d’utilité</p>
+<div class="math notranslate nohighlight">
+\[U(X,Y) = 3X^2Y\]</div>
+<p>Supposons qu’il dispose d’un revenu R =100 et fait face aux prix px = 1 et py = 2.</p>
+<ol class="simple">
+<li><p>Donner l’équation de la droite budgétaire.</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[
+R = pxX +pyY \Rightarrow  100 = x + 2y \Rightarrow  y = 50 - \dfrac{1}{2}x
+\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\{
+    \begin{array}{ll}
+    Max ~~ U(X,Y) \\ 
+    R = p_{x} X + p_{y} Y \\
+    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
+    \end{array}
+\right.
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[L(X,Y, \lambda) = U(X,Y) - \lambda(R - p_{x} X - p_{y} Y )\]</div>
+<div class="math notranslate nohighlight">
+\[
+L(X,Y, \lambda) = 3X^2Y - \lambda(100 - X - 2Y )
+\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+L^{'}_{x} = 0 &amp; \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial X} = 0  \\
+                &amp; \Rightarrow  6XY-\lambda = 0 \\
+               &amp; \Rightarrow  \lambda  = 6XY
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+L^{'}_{y} = 0 &amp; \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial y} = 0 \\
+                                       &amp; \Rightarrow 3X^2-\lambda =0 \\
+                               &amp;  \Rightarrow \lambda = 3X^2 
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}\dfrac{6XY}{3X^2} = 1 &amp; \Rightarrow 2XY = X^2 \\
+                                    &amp; Y = 2X
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+\frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \Rightarrow 100 = X + 2Y
+\]</div>
+<p>Pour <span class="math notranslate nohighlight">\(Y= 2X\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+100 - X - 2Y = 0  &amp; \Rightarrow  100 -X -4X = 0 \\   
+                &amp; \Rightarrow  X = 20 \\
+                 &amp; \Rightarrow  Y = 40 
+\end{split}\]</div>
+<p>L’optimum est donné par <span class="math notranslate nohighlight">\((20,40)\)</span>.</p>
+<p>Ainsi, l’utilité totale <span class="math notranslate nohighlight">\(U^{*} = U(20,40) = 20^2 \times 40 = 16.000\)</span>.</p>
+<ol class="simple">
+<li><p>Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
+4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.</p></li>
+</ol>
+<p>R= 100 , P’x = 1+3 = 4 et P’y= 2+4 = 6 :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+100= 4X+6Y  &amp; \Rightarrow  50 = 2X+3Y \\
+            &amp; \Rightarrow  50 = 2 \times 4Y+3Y \\
+            &amp; \Rightarrow  Y= \dfrac{50}{11} \\
+            &amp; \Rightarrow  X= \dfrac{200}{11} \\
+\end{split}\]</div>
+<p>L’optimum est donné par <span class="math notranslate nohighlight">\((\dfrac{200}{11}, \dfrac{50}{11})\)</span>.</p>
+</div>
+</div>
+<div class="section" id="exercice-5">
+<h2>Exercice 5<a class="headerlink" href="#exercice-5" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="admonition-enonce-de-l-exercice-5 admonition">
+<p class="admonition-title">Enoncé de l’exercice 5</p>
+<p>Soit un consommateur dont les choix sont exprimés à l’aide de la fonction d’utilité ordinale suivante :</p>
+<div class="math notranslate nohighlight">
+\[
+U(X, Y) = 3XY + 2Y
+\]</div>
+<p>ou X et Y sont les quantités consommées des biens X et Y.</p>
+<p>1- Calculer le <span class="math notranslate nohighlight">\(TMS_{xy}\)</span> et donner sa signification économique</p>
+<p>2- Indiquer l’expression du multiplicateur de Lagrange</p>
+<p>3- A l’aide de la méthode de Lagrange, déterminer les quantités d’équilibre lorsque <span class="math notranslate nohighlight">\(R= 10\)</span>, <span class="math notranslate nohighlight">\(P_x= 4\)</span> et <span class="math notranslate nohighlight">\(P_y= 2\)</span></p>
+</div>
+<center><font color='red'>Vous avez 5 min !</font></center>
+<div class="attention dropdown admonition">
+<p class="admonition-title"><font color='blue'>Réponse de l’exercice 5</font></p>
+<p>Soit un consommateur dont les choix sont exprimés à l’aide de la fonction d’utilité ordinale suivante :</p>
+<div class="math notranslate nohighlight">
+\[
+U(X, Y) = 3XY + 2Y
+\]</div>
+<p>ou X et Y sont les quantités consommées des biens X et Y.</p>
+<p>1- Calculer le <span class="math notranslate nohighlight">\(TMS_{xy}\)</span> et donner sa signification économique</p>
+<p>TMSxy = <span class="math notranslate nohighlight">\(\dfrac{Umx}{Umy} = \dfrac{3Y}{3Y+2}\)</span></p>
+<p>Il indique la quantité de Y que le consommateur est prêt à abandonner pour avoir une unité supplémentaire de X tout en gardant le même niveau de statistifaction.</p>
+<p>2- Déterminer les quantités d’équilibre lorsque R= 10, Px= 2 et Py= 4</p>
+<p>On sait qu’à l’équilibre :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\{
+    \begin{array}{ll}
+TMSxy = \dfrac{Umx}{Umy} = \dfrac{Px}{Py} \\
+R = Px X =PyY
+    \end{array}
+\right.
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\{
+    \begin{array}{ll}
+TMSxy = \dfrac{3Y}{3Y+2} = \dfrac{1}{2}\\
+5 = X + 2Y
+    \end{array}
+\right.
+\end{split}\]</div>
+<p>Donc</p>
+<div class="math notranslate nohighlight">
+\[
+Y = \dfrac{2}{3} \Rightarrow X =\dfrac{1}{2}
+\]</div>
+</div>
+</div>
+<div class="section" id="exercice-6">
+<h2>Exercice 6<a class="headerlink" href="#exercice-6" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="admonition-enonce-de-l-exercice-6 admonition">
+<p class="admonition-title">Enoncé de l’exercice 6</p>
+<p>Soit un consommateur dont les préférences sont exprimées à l’aide de la fonction d’utilité suivante :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+U : \mathbb{R^{+}}^2 &amp; \rightarrow \mathbb{R} \\
+(X, Y)   &amp; \longmapsto X^{3/4}Y^{1/4}
+\end{split}\]</div>
+<p>ou X et Y sont les quantités à consommées des biens X et Y. Posons <span class="math notranslate nohighlight">\(P_X\)</span> et <span class="math notranslate nohighlight">\(P_Y\)</span> les prix des biens X et Y et R le revenu du consommateur.</p>
+<p>1- Vérifier l’homogénéité de cette fonction d’utilité.</p>
+<p>2- Les courbes d’indifférence sont-elles croissantes ou décroissantes dans le plan (x, y)? Commenter le résultat obtenu</p>
+<p>3- Etudier la convexité des préférences.</p>
+<p>4- Determiner les quantités optimales associées à cette fonction. On donne <span class="math notranslate nohighlight">\(P_X=16\)</span> , <span class="math notranslate nohighlight">\(P_Y=9\)</span>  et <span class="math notranslate nohighlight">\(R=272\)</span>.</p>
+</div>
+<center><font color='red'>Vous avez 5 min !</font></center>
+<div class="attention dropdown admonition">
+<p class="admonition-title"><font color='blue'>Réponse de l’exercice 6</font></p>
+<p>Soit un consommateur dont les choix sont exprimés à l’aide de la fonction d’utilité suivante :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+U : \mathbb{R_{+}}^2 &amp; \rightarrow \mathbb{R} \\
+(X, Y)   &amp; \longmapsto X^{3/4}Y^{1/4}
+\end{split}\]</div>
+<p>ou X et Y sont les quantités à consommées des biens X et Y. Posons <span class="math notranslate nohighlight">\(P_X\)</span> et <span class="math notranslate nohighlight">\(P_Y\)</span> les prix des biens X et Y et R le revenu du consommateur.</p>
+<p>1- Vérifier l’homogénéité de cette fonction d’utilité.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+U(kX, kY) &amp; = {(kX)}^{3/4}{(kY)}^{1/4}\\
+            &amp; = k^{3/4+1/4}X^{3/4}Y^{1/4} \\
+            &amp; = kX^{3/4}Y^{1/4} \\
+             &amp; = k U(X,Y)
+\end{split}\]</div>
+<p>Donc la fonction U est homogène de degré 1</p>
+<p>2- Les courbes d’indifférence sont-elles croissantes ou décroissantes dans le plan(x, y)? Commenter le résultat obtenu!</p>
+<p>La courbe d’indifférence de niveau <span class="math notranslate nohighlight">\(U_0 &gt; 0\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+U(X, Y)= U_0 &amp; \Rightarrow  X^{3/4}Y^{1/4}= U_0 \\
+            &amp; \Rightarrow Y^{1/4}= \dfrac{U_0}{X^{3/4}} \\
+             &amp; \Rightarrow Y= \dfrac{U_0^4}{X^{3}} \\
+\end{split}\]</div>
+<p>On pose</p>
+<div class="math notranslate nohighlight">
+\[
+Y= f_{U_0}(X)= \dfrac{U_0^4}{X^{3}}
+\]</div>
+<p>On a Pour tout <span class="math notranslate nohighlight">\(X \in \mathbb{R_{+}}\)</span> et <span class="math notranslate nohighlight">\(U_0 \in \mathbb{R_{+}}\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+f_{U_0}(X)= \dfrac{U_0^4}{X^{3}} &amp; \Rightarrow  f'_{U_0}(X)= -3\dfrac{U_0^4}{X^{4}} \\
+                                 &amp; \Rightarrow  f'_{U_0}(X) &lt; 0
+\end{split}\]</div>
+<p>Les courbes d’indifférence sont donc décroissantes.</p>
+<p>Ainsi, si on veut maintenir le niveau d’utilité inchangé, il faut réduire la consommation d’un bien, augmenter la consommation de l’autre</p>
+<p>3- Etudier la convexité des préférences.</p>
+<p>On a Pour tout <span class="math notranslate nohighlight">\(X \in \mathbb{R_{+}}\)</span> et <span class="math notranslate nohighlight">\(U_0 \in \mathbb{R_{+}}\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+f_{U_0}(X)= \dfrac{U_0^4}{X^{3}} &amp; \Rightarrow  f^{'}_{U_0}(X)= -3\dfrac{U_0^4}{X^{4}} \\
+                                 &amp; \Rightarrow  f^{''}_{U_0}(X)  = 12\dfrac{U_0^4}{X^{5}} \\
+                                 &amp; \Rightarrow  f^{''}_{U_0}(X)  &gt;0
+\end{split}\]</div>
+<p>Ainsi, les préférences sont donc strictement convexes.</p>
+<p>4- Determiner les quantités optimales associées à cette fonction. On donne <span class="math notranslate nohighlight">\(P_X=15\)</span> , <span class="math notranslate nohighlight">\(P_Y=9\)</span>  et <span class="math notranslate nohighlight">\(R=272\)</span>.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+TMS_{XY} = \dfrac{Um_X}{Um_Y} = \dfrac{P_X}{P_Y} &amp; \Rightarrow \dfrac{3Y}{X} = \dfrac{P_X}{P_Y} \\
+                                                &amp; \Rightarrow Y = \dfrac{XP_X}{3P_Y} \\
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+R= XP_X+YP_Y &amp; \Rightarrow 272 = 15X+9Y \\
+             &amp; \Rightarrow 272 = 15X+9Y \\
+             &amp; \Rightarrow 272 = 15X+9\dfrac{XP_X}{3P_Y}  \\
+             &amp; \Rightarrow 272 = 15X+9\dfrac{15X}{3\times 9}  \\
+             &amp; \Rightarrow 272 = 15X+5X  \\
+             &amp; \Rightarrow 20 X = 272 \\
+             &amp; \Rightarrow X = 13.6 \\
+\end{split}\]</div>
+<p>Donc la combinaison d’équilibre est donnée par :</p>
+<div class="math notranslate nohighlight">
+\[(X = 13.6, Y = 7.55)\]</div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<center><i> Bon courage  à vous tous !</i></center>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="S%C3%A9rie1.html" title="précédent page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">précédent</p>
+            <p class="prev-next-title">Série 1 : Fonction d’utilité</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="S%C3%A9rie3.html" title="suivant page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">suivant</p>
+        <p class="prev-next-title">Série 3 : Fonction de la demande</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      Par Equipe de la microéconomie1, 2022<br/>
+    
+        &copy; droits d'auteur 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

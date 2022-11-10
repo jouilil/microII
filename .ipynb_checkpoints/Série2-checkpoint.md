@@ -1,6 +1,6 @@
 ### Série 2 : Equilibre du consommateur
 
-<i>Conçue et développée par l'Equipe de Micro 1</i>
+<i>Conçue et développée par l'Equipe de Micro 1. </i>
 
 <i> Novembre 2022</i>
 

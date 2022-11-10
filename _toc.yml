@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+# jb build book/ --builder latex for latex
+format: jb-book
+root: intro
+chapters:
+- file: Série1
+- file: Série2
+- file: Série3
+- file: Série4

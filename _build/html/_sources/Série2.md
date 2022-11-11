@@ -320,14 +320,10 @@ Supposons qu'il dispose d'un revenu $R =100$ et fait face aux prix $p_x = 1$ et 
 Lagrange. Déduire la satisfaction totale ? Il est supposé que les conditions de deuxième
 ordre sont vérifiées.
 
-3. Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
-4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.
+3. Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et 4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant
 
-4. Sachant que le revenu diminue de 20\%, trouver la nouvelle combinaison
-optimale ? Les prix restent constants.
-
-5. Sachant que les prix des biens X et Y augmentent respectivement de 15 DH et
-30 DH et que le revenu diminue de 20%, trouver alors la nouvelle combinaison optimale de X et Y ?
+4. Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
+4 DH et que le revenu diminue de 20%, trouver alors la nouvelle combinaison optimale de X et Y ?
 
 ```
 
@@ -347,12 +343,14 @@ $$
 
 Supposons qu'il dispose d'un revenu R =100 et fait face aux prix px = 1 et py = 2. 
 
-1. Donner l'équation de la droite budgétaire.
+1- Donner l'équation de la droite budgétaire.
 
 $$
 R = pxX +pyY \Rightarrow  100 = x + 2y \Rightarrow  y = 50 - \dfrac{1}{2}x
 $$
 
+
+2- Déterminer la combinaison optimale de X et Y, en utilisant la méthode de Lagrange. Déduire la satisfaction totale ? Il est supposé que les conditions de deuxième ordre sont vérifiées.
 
 $$
 \left\{
@@ -408,19 +406,34 @@ L'optimum est donné par $(20,40)$.
 
 Ainsi, l'utilité totale $U^{*} = U(20,40) = 20^2 \times 40 = 16.000$.
 
-3. Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
+3- Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
 4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.
 
 R= 100 , P'x = 1+3 = 4 et P'y= 2+4 = 6 :
 
 $$
 100= 4X+6Y  & \Rightarrow  50 = 2X+3Y \\
-            & \Rightarrow  50 = 2 \times 4Y+3Y \\
-            & \Rightarrow  Y= \dfrac{50}{11} \\
-            & \Rightarrow  X= \dfrac{200}{11} \\
+            & \Rightarrow  50 = 2X+ 3 \times 2X \\
+            & \Rightarrow  Y= \dfrac{25}{4} \\
+            & \Rightarrow  X= \dfrac{25}{2} \\
 $$
 
-L'optimum est donné par $(\dfrac{200}{11}, \dfrac{50}{11})$. 
+L'optimum est donné par $(\dfrac{25}{2}, \dfrac{25}{4})$. 
+
+4- Sachant que les prix des biens X et Y augmentent respectivement de 15 DH et
+30 DH et que le revenu diminue de 20%, trouver alors la nouvelle combinaison optimale de X et Y ?
+
+$P'_x$ =4 , $P'_y$ = 6 et $R'$ = 80.
+
+$$
+80= 4X+6Y  & \Rightarrow  40 = 2X+3Y \\
+            & \Rightarrow  40 = 2X+ 3 \times 2X \\
+            & \Rightarrow  X= 5 \\
+            & \Rightarrow  Y= 10 \\
+$$
+
+L'optimum est donné par $(5, 10)$. 
+
 
 ```
 ###### Exercice 5
@@ -434,11 +447,9 @@ $$
 
 ou X et Y sont les quantités consommées des biens X et Y.
 
-1- Calculer le $TMS_{xy}$ et donner sa signification économique
+1- Calculer le $TMS_{xy}$ et donner sa signification économique.
 
-2- Indiquer l'expression du multiplicateur de Lagrange
-
-3- A l'aide de la méthode de Lagrange, déterminer les quantités d'équilibre lorsque $R= 10$, $P_x= 4$ et $P_y= 2$ 
+2- Déterminer, par une méthode de votre choix, les quantités d'équilibre lorsque $R= 10$, $P_x= 4$ et $P_y= 2$.
 ```
 
 <center><font color='red'>Vous avez 5 min !</font></center>
@@ -460,7 +471,7 @@ TMSxy = $\dfrac{Umx}{Umy} = \dfrac{3Y}{3Y+2}$
 
 Il indique la quantité de Y que le consommateur est prêt à abandonner pour avoir une unité supplémentaire de X tout en gardant le même niveau de statistifaction.
 
-2- Déterminer les quantités d'équilibre lorsque R= 10, Px= 2 et Py= 4 
+2- Déterminer, par une méthode de votre choix, les quantités d'équilibre lorsque R= 10, Px= 2 et Py= 4 
 
 On sait qu'à l'équilibre :
 
@@ -488,6 +499,14 @@ Donc
 
 $$
 Y = \dfrac{2}{3} \Rightarrow X =\dfrac{1}{2}
+$$
+
+Ainsi les quantités d'équilibre :
+
+$$
+
+(X^{*},Y^{*}) = (\dfrac{1}{2}, \dfrac{2}{3})
+
 $$
 
 ```
@@ -606,7 +625,7 @@ Donc la combinaison d'équilibre est donnée par :
 
 $$
 
-(X = 13.6, Y = 7.55)
+(X^{*} = 13.6, Y^{*} = 7.55)
 
 $$
 

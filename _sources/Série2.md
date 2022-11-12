@@ -25,7 +25,7 @@ Le tableau suivant indique l'utilité marginale des deux biens X et Y.
 
 3. Etablir l'équation de la droite budgétaire du consommateur.
 
-4. Déterminer les quantités demandées à l'équilibre. $\textit{Justifier votre réponse!}$
+4. Déterminer les quantités demandées à l'équilibre.
 
 ```
 
@@ -59,6 +59,35 @@ $$
 
 
 4- Déterminer les quantités demandées à l'équilibre. Justifier votre réponse!
+
+
+**Méthode 1 :**
+
+A l'équilibre :
+
+$$
+
+\dfrac{Umx}{Px}=\dfrac{Umy}{Py} & \Rightarrow \dfrac{Umx}{20}=\dfrac{Umy}{25} \\
+                            & \Rightarrow \left\{
+    \begin{array}{ll}
+    4 ~~~~~~ si ~~~ (X,Y) = (5,6) \\
+    3.2 ~~~ si ~~~ (X,Y) = (8,8)
+    \end{array}
+\right.
+
+$$
+
+
+On retient le couplet $(X,Y) = (8,8)$ puisque il satisfait l'équation :
+
+$$
+
+Xpx+ Ypy = 20X+25Y = 8 \times (20+25) = 360 = R
+
+$$
+
+
+**Méthode 2 :**
 
 A l'équilibre :
 
@@ -346,7 +375,7 @@ Supposons qu'il dispose d'un revenu R =100 et fait face aux prix px = 1 et py = 
 1- Donner l'équation de la droite budgétaire.
 
 $$
-R = pxX +pyY \Rightarrow  100 = x + 2y \Rightarrow  y = 50 - \dfrac{1}{2}x
+R = pxX +pyY \Rightarrow  100 = X + 2Y \Rightarrow  Y = 50 - \dfrac{1}{2}X
 $$
 
 
@@ -380,59 +409,105 @@ $$
 
 $$
 L^{'}_{y} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial y} = 0 \\
-                                       & \Rightarrow 3X^2-\lambda =0 \\
-                               &  \Rightarrow \lambda = 3X^2 
+                                       & \Rightarrow 3X^2-2\lambda =0 \\
+                               &  \Rightarrow \lambda = 3/2X^2 
 $$
 
 $$
 
-\dfrac{6XY}{3X^2} = 1 & \Rightarrow 2XY = X^2 \\
-                                    & Y = 2X
+\dfrac{6XY}{3/2X^2} = 1 & \Rightarrow 4XY = X^2 \\
+                                    & X=4Y
 $$
 
 $$
-\frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \Rightarrow 100 = X + 2Y
+L^{'}_{\lambda} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \\
+& \Rightarrow 100 = X + 2Y
 $$
 
-Pour $Y= 2X$ :
+Pour $X= 4Y$ :
 
 $$
-100 - X - 2Y = 0  & \Rightarrow  100 -X -4X = 0 \\   
-                & \Rightarrow  X = 20 \\
-                 & \Rightarrow  Y = 40 
+100 - X - 2Y = 0  & \Rightarrow  100 -4Y -2Y = 0 \\   
+                & \Rightarrow  Y = \dfrac{50}{3}\\
+                 & \Rightarrow  X = \dfrac{200}{3}
 $$
 
-L'optimum est donné par $(20,40)$. 
+L'optimum est donné par $(\dfrac{200}{3},\dfrac{50}{3})$. 
 
-Ainsi, l'utilité totale $U^{*} = U(20,40) = 20^2 \times 40 = 16.000$.
+Ainsi, l'utilité totale $U^{*} = U(\dfrac{200}{3},\dfrac{50}{3}) = 3 \times \dfrac{200^2}{3^2} \times \dfrac{50}{3} = \dfrac{2}{9} \times 10^6$.
 
 3- Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
 4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.
 
-R= 100 , P'x = 1+3 = 4 et P'y= 2+4 = 6 :
+$R= 100$ , $P'x = 1+3 = 4$ et $P'y= 2+4 = 6$ :
+
+$$
+\left\{
+    \begin{array}{ll}
+    Max ~~ U(X,Y) \\ 
+    R = p_{x} X + p_{y} Y \\
+    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
+    \end{array}
+\right.
+$$
+
+$$
+
+L(X,Y, \lambda) = U(X,Y) - \lambda(R - p_{x} X - p_{y} Y )
+
+$$
+
+$$
+L(X,Y, \lambda) = 3X^2Y - \lambda(100 - 4X - 6Y )
+$$
+
+$$
+L^{'}_{x} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial X} = 0  \\
+                & \Rightarrow  6XY-4\lambda = 0 \\
+               & \Rightarrow  \lambda  = 3/2XY
+$$
+
+$$
+L^{'}_{y} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial y} = 0 \\
+                                       & \Rightarrow 3X^2-6\lambda =0 \\
+                               &  \Rightarrow \lambda = 1/2X^2 
+$$
+
+$$
+
+\dfrac{3/2XY}{1/2X^2} = 1 & \Rightarrow 3XY = X^2 \\
+                                    & X=3Y
+$$
+
+$$
+L^{'}_{\lambda} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \\
+& \Rightarrow 100 = 4X + 6Y
+$$
+
+
 
 $$
 100= 4X+6Y  & \Rightarrow  50 = 2X+3Y \\
-            & \Rightarrow  50 = 2X+ 3 \times 2X \\
-            & \Rightarrow  Y= \dfrac{25}{4} \\
-            & \Rightarrow  X= \dfrac{25}{2} \\
+            & \Rightarrow  50 = 2 \times 3Y +3Y \\
+            & \Rightarrow  Y= \dfrac{50}{9} \\
+            & \Rightarrow  X= \dfrac{50}{3} \\
 $$
 
-L'optimum est donné par $(\dfrac{25}{2}, \dfrac{25}{4})$. 
+L'optimum est donné par $(\dfrac{50}{3}, \dfrac{50}{9})$. 
 
-4- Sachant que les prix des biens X et Y augmentent respectivement de 15 DH et
-30 DH et que le revenu diminue de 20%, trouver alors la nouvelle combinaison optimale de X et Y ?
+4- Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
+4 DH et que le revenu diminue de 20%, trouver alors la nouvelle combinaison optimale de X et Y ?
 
 $P'_x$ =4 , $P'_y$ = 6 et $R'$ = 80.
 
 $$
 80= 4X+6Y  & \Rightarrow  40 = 2X+3Y \\
-            & \Rightarrow  40 = 2X+ 3 \times 2X \\
-            & \Rightarrow  X= 5 \\
-            & \Rightarrow  Y= 10 \\
+            & \Rightarrow  40 = 2 \times 3Y +3Y \\
+            & \Rightarrow  Y =\dfrac{40}{9} \\
+            & \Rightarrow  X= \dfrac{40}{3}
 $$
 
-L'optimum est donné par $(5, 10)$. 
+L'optimum est donné par $(\dfrac{40}{3}, \dfrac{40}{9})$. 
 
 
 ```
@@ -467,7 +542,7 @@ ou X et Y sont les quantités consommées des biens X et Y.
 
 1- Calculer le $TMS_{xy}$ et donner sa signification économique
 
-TMSxy = $\dfrac{Umx}{Umy} = \dfrac{3Y}{3Y+2}$
+TMSxy = $\dfrac{Umx}{Umy} = \dfrac{3Y}{3X+2}$
 
 Il indique la quantité de Y que le consommateur est prêt à abandonner pour avoir une unité supplémentaire de X tout en gardant le même niveau de statistifaction.
 
@@ -488,7 +563,7 @@ $$
 $$
 \left\{
     \begin{array}{ll}
-TMSxy = \dfrac{3Y}{3Y+2} = \dfrac{1}{2}\\
+TMSxy = \dfrac{3Y}{3X+2} = \dfrac{1}{2}\\
 5 = X + 2Y
     \end{array}
 \right.
@@ -498,14 +573,14 @@ $$
 Donc
 
 $$
-Y = \dfrac{2}{3} \Rightarrow X =\dfrac{1}{2}
+Y = \dfrac{17}{12} \Rightarrow X =\dfrac{13}{6}
 $$
 
 Ainsi les quantités d'équilibre :
 
 $$
 
-(X^{*},Y^{*}) = (\dfrac{1}{2}, \dfrac{2}{3})
+(X^{*},Y^{*}) = (\dfrac{13}{6}, \dfrac{17}{12})
 
 $$
 

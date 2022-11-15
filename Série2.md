@@ -2,7 +2,7 @@
 
 <i>Conçue et développée par l'Equipe de Micro 1. </i>
 
-<i> Novembre 2022</i>
+<i> Mercredi 16 Novembre 2022</i>
 
 
 ###### Exercice 1
@@ -29,7 +29,6 @@ Le tableau suivant indique l'utilité marginale des deux biens X et Y.
 
 ```
 
-<center><font color='red'>Vous avez 5 min !</font></center>
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 1</font>
 :class: attention, dropdown
@@ -78,7 +77,7 @@ $$
 $$
 
 
-On retient le couplet $(X,Y) = (8,8)$ puisque il satisfait l'équation :
+On ne retient que le couplet $(X,Y) = (8,8)$ puisque c'est le seul qui satisfait l'équation :
 
 $$
 
@@ -128,7 +127,7 @@ On suppose que le revenu du consommateur est égal à $10$.
 
 1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité $U_1 = 10$ et $U_2 = 16$.
 
-2- Calculer les utilités marginales et le TMS du bien Y au bien X.
+2- Calculer les utilités marginales et le $TMS_{xy}$.
 
 3- Ecrire l’équation de la droite de budget en notant px et py les prix respectifs des biens
 X et Y. Déterminer sa pente. On donne $(p_x, p_y) = (2,2)$
@@ -137,7 +136,6 @@ X et Y. Déterminer sa pente. On donne $(p_x, p_y) = (2,2)$
 
 ```
 
-<center><font color='red'>Vous avez 5 min !</font></center>
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 2</font>
 :class: attention, dropdown
@@ -174,7 +172,7 @@ $$
 $$
 
 
-2- Calculer les utilités marginales et le TMS du bien Y au bien X.
+2- Calculer les utilités marginales et le $TMS_{xy}$.
 
 On a :
 
@@ -240,7 +238,6 @@ $$
 
 ```
 
-<center><font color='red'>Vous avez 5 min !</font></center>
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 3</font>
 :class: attention, dropdown
@@ -314,7 +311,7 @@ $$
 $$
 
 
-2. Quel est le niveau d'utilité obtenu ?
+2- Quel est le niveau d'utilité obtenu ?
 
 $$ 
 
@@ -356,7 +353,6 @@ ordre sont vérifiées.
 
 ```
 
-<center><font color='red'>Vous avez 5 min !</font></center>
 
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 4</font>
@@ -527,7 +523,6 @@ ou X et Y sont les quantités consommées des biens X et Y.
 2- Déterminer, par une méthode de votre choix, les quantités d'équilibre lorsque $R= 10$, $P_x= 4$ et $P_y= 2$.
 ```
 
-<center><font color='red'>Vous avez 5 min !</font></center>
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 5</font>
 :class: attention, dropdown
@@ -613,7 +608,6 @@ ou X et Y sont les quantités à consommées des biens X et Y. Posons $P_X$ et $
 
 ```
 
-<center><font color='red'>Vous avez 5 min !</font></center>
 
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 6</font>

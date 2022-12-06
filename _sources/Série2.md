@@ -12,11 +12,11 @@ Soient deux biens X et Y dont les prix unitaires sont respectivement de 20 et 25
 
 Le tableau suivant indique l'utilité marginale des deux biens X et Y.
 
+
 | **Q**   	| 1    	| 2    	| 3    	| 4    	| 5    	| 6    	| 7    	| 8    	| 9    	| 10   	|
 |---------	|------	|------	|------	|------	|------	|------	|------	|------	|------	|------	|
 | **Umx** 	| 120  	| 100  	| 90   	| 85   	| 80   	| 75   	| 70   	| 64   	| 60   	| 55   	|
 | **Umy** 	| 160  	| 140  	| 130  	| 120  	| 110  	| 100  	| 90   	| 80   	| 70   	| 60   	|
-
 
 
 1. Rappeler la définition du $TMS_{xy}$.
@@ -389,12 +389,12 @@ $$
 
 $$
 
-L(X,Y, \lambda) = U(X,Y) - \lambda(R - p_{x} X - p_{y} Y )
+L(X,Y, \lambda) = U(X,Y) \textcolor{red}{+} \lambda(R - p_{x} X - p_{y} Y )
 
 $$
 
 $$
-L(X,Y, \lambda) = 3X^2Y - \lambda(100 - X - 2Y )
+L(X,Y, \lambda) = 3X^2Y \textcolor{red}{+} \lambda(100 - X - 2Y )
 $$
 
 $$

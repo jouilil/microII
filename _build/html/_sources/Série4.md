@@ -1,2 +1,2 @@
-### Série 4 : Fonction de production
+### Série 4 : Concurrence monopolistique et Oligopole
 

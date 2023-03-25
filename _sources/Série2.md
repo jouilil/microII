@@ -1,31 +1,34 @@
-### Série 2 : Equilibre du consommateur
+### Série 2 : CPP
 
-<i>Conçue et développée par l'Equipe de Micro 1. </i>
+<i>Conçue et développée par l'Equipe de Micro 2. </i>
 
-<i> Mercredi 16 Novembre 2022</i>
+<i> Mercredi 29 Mars 2023</i>
 
 
 ###### Exercice 1
 
 ```{admonition} Enoncé de l'exercice 1
-Soient deux biens X et Y dont les prix unitaires sont respectivement de 20 et 25 DHs. Le consommateur dispose d'un revenu $R= 360$ DHs qu'il dépense entièrement.
+Une industrie qui évolue dans un contexte de concurrence pure et parfaire est composée de 120 entreprises. Chacune de ces entreprises a une fonction de coût total donnée par l'équation suivante : 
 
-Le tableau suivant indique l'utilité marginale des deux biens X et Y.
+$$
+CT(Q) = 2Q^2+4Q+162
+$$
+
+La demande du marché s’écrit :  
+
+$$
+P=-\dfrac{1}{15}Q + 442
+$$
 
 
-| **Q**   	| 1    	| 2    	| 3    	| 4    	| 5    	| 6    	| 7    	| 8    	| 9    	| 10   	|
-|---------	|------	|------	|------	|------	|------	|------	|------	|------	|------	|------	|
-| **Umx** 	| 120  	| 100  	| 90   	| 85   	| 80   	| 75   	| 70   	| 64   	| 60   	| 55   	|
-| **Umy** 	| 160  	| 140  	| 130  	| 120  	| 110  	| 100  	| 90   	| 80   	| 70   	| 60   	|
+1. Déterminer l'offre individuelle. 
 
+2. Déterminer l'offre globale du marché. 
 
-1. Rappeler la définition du $TMS_{xy}$.
+3. Calculer le prix et la quantité d'équilibre du marché. 
 
-2. Calculer les différentes valeurs du $TMS_{xy}$
+4. Déterminer l'équilibre de la firme à court terme. Calculer son profit. 
 
-3. Etablir l'équation de la droite budgétaire du consommateur.
-
-4. Déterminer les quantités demandées à l'équilibre.
 
 ```
 
@@ -33,82 +36,81 @@ Le tableau suivant indique l'utilité marginale des deux biens X et Y.
 ```{admonition} <font color='blue'>Réponse de l'exercice 1</font>
 :class: attention, dropdown
 
-1. Rappeler la définition du TMSxy 
-
-    $$
-    TMS_{xy} = \dfrac{Umx}{Umy}
-    $$
-
-2. Calculer les différentes valeurs du TMSxy
-
-    | **Q**   	| 1    	| 2    	| 3    	| 4    	| 5    	| 6    	| 7    	| 8    	| 9    	| 10   	|
-    |---------	|------	|------	|------	|------	|------	|------	|------	|------	|------	|------	|
-    | **Umx** 	| 120  	| 100  	| 90   	| 85   	| 80   	| 75   	| 70   	| 64   	| 60   	| 55   	|
-    | **Umy** 	| 160  	| 140  	| 130  	| 120  	| 110  	| 100  	| 90   	| 80   	| 70   	| 60   	|
-    | **TMS** 	| 0.75 	| 0.71 	| 0.69 	| 0.70 	| 0.72 	| 0.75 	| 0.77 	| 0.8 	| 0.85 	| 0.91 	|
-
-
-3. Etablir l'équation de la droite budgétaire du consommateur.
+1. Déterminer l'offre individuelle. 
 
 $$
-R=Xp_x+Yp_y  & \Rightarrow 360= 20X +25Y \\
-              & \Rightarrow 25Y = 360 - 20X \\
-              & \Rightarrow Y = 14.4 - 0.8X \\
+P= Cm  & \Rightarrow  P = \dfrac{dCT(Q)}{dQ} \\
+              & \Rightarrow P = 4Q+4 \\
+              & \Rightarrow Q(P) = 0.25P-1  ~~\text{Si}~~ P \geq SR\\
 $$
 
-
-4- Déterminer les quantités demandées à l'équilibre. Justifier votre réponse!
-
-
-**Méthode 1 :**
-
-A l'équilibre :
-
+$$
+SR= Min ~~ CTM = Min ~~ \dfrac{CT}{Q}= Min ~~ 2Q+4+\dfrac{162}{Q}
 $$
 
-\dfrac{Umx}{Px}=\dfrac{Umy}{Py} & \Rightarrow \dfrac{Umx}{20}=\dfrac{Umy}{25} \\
-                            & \Rightarrow \left\{
+$$
+CTM'=0 & \Rightarrow  2 - \dfrac{162}{Q^2}=0 \\
+              & \Rightarrow Q^2 = 81 \\
+              & \Rightarrow Q = 9
+$$
+
+Donc :
+
+$$
+SR = Min ~~ CTM = CTM(9) = 2\times9 + 4 +\dfrac{162}{9} = 40
+$$
+
+Ainsi, l'offre individuelle est donnée par l'expression suivante :
+
+
+
+$$
+Q(P) = 
+\left\{
     \begin{array}{ll}
-    4 ~~~~~~ si ~~~ (X,Y) = (5,6) \\
-    3.2 ~~~ si ~~~ (X,Y) = (8,8)
+    0.25P-1  ~~\text{Si}~~ P \geq 40\\ 
+    0 ~~~~~~~~~~~~~~~~~ \text{Sinon}
     \end{array}
 \right.
+$$
 
+2- Offre globale du marché
+
+$$
+O^G = \sum_{i=1}^{120} Q_i(P) = 120 (0.25P-1)= 30P-120
+$$
+
+3- Calculer le prix et la quantité d'équilibre du marché. 
+
+$$
+P=-\dfrac{1}{15}Q+442  & \Rightarrow P-442=-\dfrac{1}{15}Q\\
+              & \Rightarrow Q(P)=6630-15P
+$$
+
+$$
+Q=6630-15P = 30P-120  \Rightarrow 6750= 45P  \Rightarrow P = 150
+$$
+
+Pour P= 150 :
+
+$$
+Q = 6630-15 \times 150   \Rightarrow  Q = 4380
 $$
 
 
-On ne retient que le couplet $(X,Y) = (8,8)$ puisque c'est le seul qui satisfait l'équation :
+4- Déterminer l'équilibre de la firme à court terme. Calculer son profit. 
+
+
 
 $$
-
-Xpx+ Ypy = 20X+25Y = 8 \times (20+25) = 360 = R
-
+Cm= P
 $$
 
-
-**Méthode 2 :**
-
-A l'équilibre :
-
+$$
+Q(P) = 0.25P-1 ~~si ~~ P \geq 40
 $$
 
-\dfrac{Umx}{Px}=\dfrac{Umy}{Py} & \Rightarrow \dfrac{Umx}{Umy}=\dfrac{Px}{Py} \\
-                                & \Rightarrow \dfrac{Umx}{Umy}= 0.8 \\
-$$
-
-Or, d'après le tableau, on constate que :
-
-$$
-
-Xpx+ Ypy = 20X+25Y = 8 \times (20+25) = 360 = R
-
-$$
-
-Donc les quantitiés optimales sont données par le couple : 
-
-$$
-(X^{Opt},Y^{Opt}) = (8,8)
-$$
+Pour $P =150$, on a  $Q = 36,5$ et $\pi= 150\times36,5-CT(36,5)$
 
 ```
 
@@ -116,589 +118,417 @@ $$
 
 ```{admonition} Enoncé de l'exercice 2
 
-Soit un consommateur dont on représente la relation de préférence par la fonction d’utilité suivante : 
+Sur un marché de CPP composé de 50 firmes qui ont une structure de coût identique telle que :
 
 $$
-U : \mathbb{R^{+}} \times \mathbb{R^{+}} & \rightarrow \mathbb{R} \\
-(x, y)   & \longmapsto x(2 + 3y)
+CT=5 Q^2+30Q+125
+$$
+     
+La fonction inverse de la demande s’écrit : 
+
+$$
+P=-0,1Q+1500
 $$
 
-On suppose que le revenu du consommateur est égal à $10$.
+1. Déterminer le prix d’équilibre de courte période, la quantité échangée à ce prix et l’offre de chaque firme.
 
-1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité $U_1 = 10$ et $U_2 = 16$.
+2. Déterminer le profit de la firme représentative.
 
-2- Calculer les utilités marginales et le $TMS_{xy}$.
-
-3- Ecrire l’équation de la droite de budget en notant px et py les prix respectifs des biens
-X et Y. Déterminer sa pente. On donne $(p_x, p_y) = (2,2)$
-
-4- Déterminez l’optimum du consommateur.
-
+3. Ce profit peut-il durer à long terme ?
 ```
 
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 2</font>
 :class: attention, dropdown
 
-Soit un consommateur dont on représente la relation de préférence par la fonction d’utilité suivante : 
+1. Déterminer le prix d’équilibre de courte période, la quantité échangée à ce prix et l’offre de chaque firme.
 
 $$
-U(x, y) = x(2 + 3y)
+P= Cm  & \Rightarrow  P = \dfrac{dCT(Q)}{dQ} \\
+              & \Rightarrow P = 10Q+30 \\
+              & \Rightarrow Q(P) = 0.1P-3  ~~\text{Si}~~ P \geq Min ~~ CTM\\
 $$
 
-On suppose que le revenu du consommateur est égal à 10.
-
-1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité $U_1 = 10$ et $U_2 = 16$.
-
-Soit U = $\overline{U}$ fixe :
-
+$$
+SR= Min ~~ CTM = Min ~~ \dfrac{CT}{Q}= Min ~~ 5Q+30+\dfrac{125}{Q}
 $$
 
-U = x(2 + 3y)  & \Rightarrow 3y +2 = \dfrac{\overline{U}}{x} \\
-                & \Rightarrow 3y = \dfrac{\overline{U}}{x}-2 \\
-                & \Rightarrow y = \dfrac{\overline{U}}{3x} - \dfrac{2}{3} \\
 $$
-
-Pour U = 10, la courbe d’indifférence serait
-
+CTM'=0 \Rightarrow  Q^2 = 25  \Rightarrow Q = 5
 $$
-\overline{U} = 10 \Rightarrow y = \dfrac{10}{3x} - \dfrac{2}{3} 
-$$
-
-Pour U = 16, la courbe d’indifférence serait
-
-$$
-\overline{U} = 16 \Rightarrow y = \dfrac{16}{3x} - \dfrac{2}{3} 
-$$
-
-
-2- Calculer les utilités marginales et le $TMS_{xy}$.
-
-On a :
-
-$Um_x = \dfrac{dU(x,y)}{dx}=2+3y$ et $Um_y = \dfrac{dU(x,y)}{dy} =3x$
-
 
 Donc :
 
 $$
-TMS = \dfrac{Umx}{Umy} \Rightarrow TMS = \dfrac{2+3y}{3x}
+Min ~~ CTM = CTM(5) = 80
 $$
 
-
-3- Ecrire l’équation de la droite de budget en notant px et py les prix respectifs des biens
-X et Y. Déterminer sa pente. On donne $(p_x, p_y) = (2,2)$
-
-La droite du budget 
-
-$ R= XPx+Ypy \Rightarrow Y= \dfrac{-Px}{Py}X+\dfrac{R}{Py} $
-
-Pour $P= (Px, Py) = (2,2)$ et $R=10$
-
-La droite du budget est donnée par : $Y= -X+ 5$
-
-4- Déterminez l’optimum du consommateur.
-
-A l'équilibre :
+Offre globale 
 
 $$
-
-\dfrac{Umx}{Px}=\dfrac{Umy}{Py} & \Rightarrow  Umx= Umy ~~~ (car~~ Px=Py=2)\\ 
-                                   & \Rightarrow 2 +3y = 3x \\
-                                & \Rightarrow y= x-\dfrac{2}{3} 
-
+O^G= 15000-10P
 $$
 
-On remplace $y= x-\dfrac{2}{3} $ par sa valeur dans l'équation de la droite budgétaire, on aura :
+Offre = Demande
 
 $$
-x = \dfrac{17}{6} ~~~;~~~ y = \dfrac{13}{6}
+5P-150 = 15000-10P 
 $$
 
+Ainsi P =1010 et $Q_G$ = 4900
+
+L'offre individuelle est donnée par :
+
+$$
+Q_i = \dfrac{Q_G}{N}= \dfrac{4900}{50}= 98
+$$
+
+2- Déterminer le profit de la firme représentative.
+
+$$
+\pi = RT-CT= pQ-CT = 47895
+$$
+
+3- Ce profit peut-il durer à long terme ?
+
+Le profit réalisé par les entreprises est important. Ce profit important attire de nouvelles entreprises ( car l'acces au marché en CPP est libre). Ainsi, l'offre globale va uagmenter. Si la demande reste inchangée, il en resultera une baisse du prix d'équilibre et du profit de chaque entreprise (jusqu'à $\pi=0$).
+
+Ainsi, en longue période :
+
+$$
+P=Cm= CM
+$$
+
+$$
+Q= 5 ~~ et ~~ P=80 \Rightarrow  \pi = 0
+$$
 
 ```
 
+
 ###### Exercice 3
+
 
 ```{admonition} Enoncé de l'exercice 3
 
-Soit un consommateur disposant d'un revenu $R= 120$ et consommant deux biens, X et
-Y, dont les prix sont $P_x = 4$ et $P_y = 3$. Les préférences de ce consommateur sont
-représentées par la fonction d'utilité suivante :
+Supposons que sur le marché des bananes dans une région donnée, les quantités demandées varient de la façon suivante en fonction du prix :
 
 $$
-U(X,Y) = 3XY
+Q^D= -40P + 4100
 $$
 
-1. Déterminer les quantités à consommer à l'équilibre à l'aide de la méthode de substitution. Essayez d'être précis!
+Par ailleurs, les quantités offertes varient en fonction du prix :
 
-2. Quel est le niveau d'utilité obtenu ?
+$$
+Q^O= 20P - 100
+$$
 
+1. Déterminer le prix d'équilibre et la quantité échangée à ce prix.
 
+2. Sur ce marché, on recense 200 firmes de même dimension et possédant les mêmes coûts. Prenons l'une de ces entreprises, l'entreprise A par exemple. Son coût total en fonction de la quantité produite est de :
+
+$$
+CT(Q)= 5Q^2 + 5Q + 100
+$$
+
+2.1. Pour quel volume de production, son profit sera-t-il maximum ?
+
+2.2. Montrer que ce volume est bien le (1/200)ème du volume vendu dans la branche.
+
+3. L'entrée dans la branche est libre.
+
+3.1. Déterminer le prix d'équilibre à LT et la quantité échangée dans la branche.
+
+3.2. Déterminer la quantité qui serait vendue par la firme A et son profit à LT.
 
 ```
 
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 3</font>
 :class: attention, dropdown
-Soit un consommateur disposant d'un revenu R= 120 et consommant deux biens, X et
-Y, dont les prix sont Px = 4 et Py = 3. Les préférences de ce consommateur sont
-représentées par la fonction d'utilité suivante :
+
+Supposons que sur le marché des bananes dans une région donnée, les quantités demandées varient de la façon suivante en fonction du prix :
 
 $$
-U(X,Y) = 3XY
+Q^D= -40P + 4100
 $$
 
-1. Déterminer les quantités à consommer à l'équilibre à l'aide de la éthode de substitution
-
-On a :
-
+Par ailleurs, les quantités offertes varient en fonction du prix :
 
 $$
-\left\{
-    \begin{array}{ll}
-    Max ~~ U(X,Y) \\ 
-    R = p_{x} X + p_{y} Y \\
-    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
-    \end{array}
-\right.
+Q^O= 20P - 100
 $$
 
-$$
-\left\{
-    \begin{array}{ll}
-    Max ~~ U(X,Y) = 3XY ~~~ (1)\\ 
-    120 = 4 X + 3 Y ~~~ (2) \\
-    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
-    \end{array}
-\right.
+1- Déterminer le prix d'équilibre et la quantité échangée à ce prix.
+
+Prix et quantité d’équilibre 
+
+A l’équilibre : 
 
 $$
-
-EtapE 1 : On tire Y de l'éq. (2) * : 
-
-<i>Remarque : On peut utiliser X au lieu de Y</i>
-
-$$
-    120 = 4 X + 3 Y  \Rightarrow   3 Y   = 120 - 4 X \Rightarrow     Y = 40 - 4/3 X 
-$$
-
-Etape 2 : On remplace Y par sa valeur dans U :
-
-$$
-U(X,Y) = 3XY= 3X (40-4/3X) = 120 X - 4X^{2}
-$$
-
-Etape 3 : Annuler la dérivée première de U en fonction de X et Vérifier que la dérivée seconde est négative.
-
-$$
-U' = 0  \Rightarrow 120 -8X = 0 \Rightarrow X = 15
+Q^D = Q^O  & \Rightarrow  -40P + 4100 = 20P – 100 \\
+                & \Rightarrow P = 70
 $$
 
 $$
-U'' = -8 < 0 
+Q^O = 20(70) – 100 = 1300
 $$
 
-Les quantités optimales sont données par  :
-
-$ X^{*} = 15$ et $Y^{*} = 40-4/3 X = 20 $
-
-
-Ainsi :
-
 $$
-(X^{*}, Y^{*}) = (15,20)
+Q^D = -40(70) + 4100 = 1300
 $$
 
+$$
+Q = 1300
+$$
 
-2- Quel est le niveau d'utilité obtenu ?
-
-$$ 
-
-U(X^{*}, Y^{*}) &= 3X^{*}Y^{*}  \\
-&= 3 \times 15 \times 20 \\
-&= 900
+2- Sur ce marché, on recense 200 firmes de même dimension et possédant les mêmes coûts. Prenons l'une de ces entreprises, l'entreprise A par exemple. Son coût total en fonction de la quantité produite est de :
 
 $$
+CT(Q)= 5Q^2 + 5Q + 100
+$$
+
+2.1. Pour quel volume de production, son profit sera-t-il maximum ?
+
+
+$\pi$ est maximum si P = Cm
+
+$$
+70 = 10Q + 5 \Rightarrow Q = 6,5
+$$
+
+2.2. Montrer que ce volume est bien le (1/200)ème du volume vendu dans la branche.
+
+On sait que le volume vendu dans la branche est 1300 (Offre = Demande) Et que pour une entreprise le volume vendu est $Q_i = 6,5$.
+
+Pour 200 entreprises le volume vendu est $6,5 \times 200 = 1300$ Donc, 6,5 est le 1/200ème du volume vendu dans la branche
+
+
+
+3- L'entrée dans la branche est libre.
+
+3.1. Déterminer le prix d'équilibre à LT et la quantité échangée dans la branche.
+
+$$
+CT(Q) = 5Q^2 + 5Q + 100  \Rightarrow CTM = 5Q + 5 + 100/Q 
+$$
+ CTM est minimum implique que :
+ 
+$$
+CTM'(Q) = 0 & \Rightarrow 5 – 100/Q^2 = 0 \\
+               & \Rightarrow Q_i ≈ 4,5 
+$$
+
+$CTM = 5(4,5) + 5 + 100/4,5$
+
+$P = CTM ≈ 50$
+
+La quantité échangée au niveau de la branche :
+
+$Q^{LT} = - 40 P^{LT} + 4100 = - 40(50) + 4100$
+
+$Q^{LT} = 2100$
+
+
+
+3.2. Déterminer la quantité qui serait vendue par la firme A et son profit à LT.
+
+$Q^{LT}_i = [20(50) – 100]/200$
+
+$Q^{LT}_i = 4,5$
+
+$\pi^{LT}_i = RT – CT = P \times Q – (CM \times q) = (4,5 \times 50) – (50 \times 4,5)$
+
+$\pi^{LT}_i = 0$
+
 
 
 ```
 
 ###### Exercice 4
 
-
 ```{admonition} Enoncé de l'exercice 4
 
-Les préférences d'un consommateur sont représentées par la fonction d'utilité
-
+Soit un marché de CPP ; considérons les fonctions de demande et d'offre suivantes:
 
 $$
-U : \mathbb{R^{+}} \times \mathbb{R^{+}} & \rightarrow \mathbb{R} \\
-(X, Y)   & \longmapsto 3X^2Y
+Q^D = -2P + 10 ~~~~~~~;~~~~~~~~~
+Q^O = P + 4
 $$
 
-Supposons qu'il dispose d'un revenu $R =100$ et fait face aux prix $p_x = 1$ et $p_y = 2$. 
+1. Déterminer le prix et la quantité d'équilibre
 
-1. Donner l'équation de la droite budgétaire.
+2. Supposons que l'offre se déplace, soit $Q^O= P + 1$, la demande inchangée. Quels sont les nouveaux prix et la quantité d’équilibre.
+
+3. Avec le déplacement de l'offre, si le prix reste inchangé, ce marché serait en déséquilibre. Calculer le manque provisoire qui en découle.
 
 
-2. Déterminer la combinaison optimale de X et Y, en utilisant la méthode de
-Lagrange. Déduire la satisfaction totale ? Il est supposé que les conditions de deuxième
-ordre sont vérifiées.
-
-3. Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et 4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant
-
-4. Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
-4 DH et que le revenu diminue de 20%, trouver alors la nouvelle combinaison optimale de X et Y ?
 
 ```
-
 
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 4</font>
 :class: attention, dropdown
 
-Les préférences d'un consommateur sont reprÈsentÈes par la fonction d'utilité
+1. Déterminer le prix et la quantité d'équilibre
 
 $$
-
-U(X,Y) = 3X^2Y
-
-$$
-
-Supposons qu'il dispose d'un revenu R =100 et fait face aux prix px = 1 et py = 2. 
-
-1- Donner l'équation de la droite budgétaire.
-
-$$
-R = pxX +pyY \Rightarrow  100 = X + 2Y \Rightarrow  Y = 50 - \dfrac{1}{2}X
-$$
-
-
-2- Déterminer la combinaison optimale de X et Y, en utilisant la méthode de Lagrange. Déduire la satisfaction totale ? Il est supposé que les conditions de deuxième ordre sont vérifiées.
-
-$$
-\left\{
-    \begin{array}{ll}
-    Max ~~ U(X,Y) \\ 
-    R = p_{x} X + p_{y} Y \\
-    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
-    \end{array}
-\right.
+Q^D = Q^O  & \Rightarrow -2P + 10 = P + 4 \\
+            & \Rightarrow -3P =-6 \\
+            & \Rightarrow P =2
 $$
 
 $$
+Q^{eq}= -2\times 2 + 10 = 6
+$$
 
-L(X,Y, \lambda) = U(X,Y) \textcolor{red}{+} \lambda(R - p_{x} X - p_{y} Y )
+Au prix de 2 dhs, la quantité d’équilibre est de 6 unités
 
+2- Supposons que l'offre se déplace, soit $QO = P + 1$, la demande inchangée. Quels sont les nouveaux prix et la quantité d’équilibre.
+
+$$
+Q^D = Q^O  & \Rightarrow -2P + 10 = P + 1 \\
+            & \Rightarrow -3P =- 9\\
+            & \Rightarrow P =3
 $$
 
 $$
-L(X,Y, \lambda) = 3X^2Y \textcolor{red}{+} \lambda(100 - X - 2Y )
+Q^{eq}= -2\times 3 + 10 = 4
+$$
+
+Au prix de 3 dhs la quantité d’équilibre est de 4 unités.
+
+3- Avec le déplacement de l'offre, si le prix reste inchangé, ce marché serait en déséquilibre. Calculer le manque provisoire qui en découle.
+
+Nous avons : $Q^O = P + 1$ et $P = 2$
+
+$$
+Q^O = 3
 $$
 
 $$
-L^{'}_{x} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial X} = 0  \\
-                & \Rightarrow  6XY-\lambda = 0 \\
-               & \Rightarrow  \lambda  = 6XY
+Q^D = -2P + 10 = -2(2) + 10 \Rightarrow Q^D = 6
 $$
 
-$$
-L^{'}_{y} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial y} = 0 \\
-                                       & \Rightarrow 3X^2-2\lambda =0 \\
-                               &  \Rightarrow \lambda = 3/2X^2 
-$$
-
-$$
-
-\dfrac{6XY}{3/2X^2} = 1 & \Rightarrow 4XY = X^2 \\
-                                    & X=4Y
-$$
-
-$$
-L^{'}_{\lambda} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \\
-& \Rightarrow 100 = X + 2Y
-$$
-
-Pour $X= 4Y$ :
-
-$$
-100 - X - 2Y = 0  & \Rightarrow  100 -4Y -2Y = 0 \\   
-                & \Rightarrow  Y = \dfrac{50}{3}\\
-                 & \Rightarrow  X = \dfrac{200}{3}
-$$
-
-L'optimum est donné par $(\dfrac{200}{3},\dfrac{50}{3})$. 
-
-Ainsi, l'utilité totale $U^{*} = U(\dfrac{200}{3},\dfrac{50}{3}) = 3 \times \dfrac{200^2}{3^2} \times \dfrac{50}{3} = \dfrac{2}{9} \times 10^6$.
-
-3- Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
-4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.
-
-$R= 100$ , $P'x = 1+3 = 4$ et $P'y= 2+4 = 6$ :
-
-$$
-\left\{
-    \begin{array}{ll}
-    Max ~~ U(X,Y) \\ 
-    R = p_{x} X + p_{y} Y \\
-    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
-    \end{array}
-\right.
-$$
-
-$$
-
-L(X,Y, \lambda) = U(X,Y) - \lambda(R - p_{x} X - p_{y} Y )
-
-$$
-
-$$
-L(X,Y, \lambda) = 3X^2Y - \lambda(100 - 4X - 6Y )
-$$
-
-$$
-L^{'}_{x} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial X} = 0  \\
-                & \Rightarrow  6XY-4\lambda = 0 \\
-               & \Rightarrow  \lambda  = 3/2XY
-$$
-
-$$
-L^{'}_{y} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial y} = 0 \\
-                                       & \Rightarrow 3X^2-6\lambda =0 \\
-                               &  \Rightarrow \lambda = 1/2X^2 
-$$
-
-$$
-
-\dfrac{3/2XY}{1/2X^2} = 1 & \Rightarrow 3XY = X^2 \\
-                                    & X=3Y
-$$
-
-$$
-L^{'}_{\lambda} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \\
-& \Rightarrow 100 = 4X + 6Y
-$$
-
-
-
-$$
-100= 4X+6Y  & \Rightarrow  50 = 2X+3Y \\
-            & \Rightarrow  50 = 2 \times 3Y +3Y \\
-            & \Rightarrow  Y= \dfrac{50}{9} \\
-            & \Rightarrow  X= \dfrac{50}{3} \\
-$$
-
-L'optimum est donné par $(\dfrac{50}{3}, \dfrac{50}{9})$. 
-
-4- Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
-4 DH et que le revenu diminue de 20%, trouver alors la nouvelle combinaison optimale de X et Y ?
-
-$P'_x$ =4 , $P'_y$ = 6 et $R'$ = 80.
-
-$$
-80= 4X+6Y  & \Rightarrow  40 = 2X+3Y \\
-            & \Rightarrow  40 = 2 \times 3Y +3Y \\
-            & \Rightarrow  Y =\dfrac{40}{9} \\
-            & \Rightarrow  X= \dfrac{40}{3}
-$$
-
-L'optimum est donné par $(\dfrac{40}{3}, \dfrac{40}{9})$. 
+Ainsi, le marché est en déséquilibre, le manque provisoire est de 3 unités. 
 
 
 ```
+
 ###### Exercice 5
 
+
 ```{admonition} Enoncé de l'exercice 5
-Soit un consommateur dont les choix sont exprimés à l'aide de la fonction d'utilité ordinale suivante :
+
+Cinquante entreprises concourent à la production de bicyclettes et leurs fonctions de coûts sont identiques :
 
 $$
-U(X, Y) = 3XY + 2Y
+CT(Q)= 0,2Q^2 + 10Q + 20
 $$
 
-ou X et Y sont les quantités consommées des biens X et Y.
+La demande de bicyclettes est donnée par la fonction :
 
-1- Calculer le $TMS_{xy}$ et donner sa signification économique.
+$$
+Q^D= 100P + 3250
+$$
 
-2- Déterminer, par une méthode de votre choix, les quantités d'équilibre lorsque $R= 10$, $P_x= 4$ et $P_y= 2$.
+1. Déterminer l’équation de l’offre de chaque entreprise et celle de l’offre globale
+
+2. Calculer le prix d'équilibre
+
+3. Le gouvernement décide de taxer les bicyclettes de 9dh par unité produite et vendue :
+
+3.1. Quel sera le nouveau prix d'équilibre ?
+
+3.2. Calculer 1a quantité vendue par la branche et par chaque entreprise
+
 ```
+
 
 
 ```{admonition} <font color='blue'>Réponse de l'exercice 5</font>
 :class: attention, dropdown
 
-Soit un consommateur dont les choix sont exprimés à l'aide de la fonction d'utilité ordinale suivante :
+1. Déterminer l’équation de l’offre de chaque entreprise et celle de l’offre globale
+
+Pour chaque entreprise, la condition de maximisation du profit se traduit par :
 
 $$
-U(X, Y) = 3XY + 2Y
+P = Cm & \Rightarrow P = 0,4qi + 10 \\
+        & \Rightarrow qi = 2,5P – 25 ~~~~\text{(c’est l’offre de l’entreprise i)}
 $$
 
-ou X et Y sont les quantités consommées des biens X et Y.
-
-1- Calculer le $TMS_{xy}$ et donner sa signification économique
-
-TMSxy = $\dfrac{Umx}{Umy} = \dfrac{3Y}{3X+2}$
-
-Il indique la quantité de Y que le consommateur est prêt à abandonner pour avoir une unité supplémentaire de X tout en gardant le même niveau de statistifaction.
-
-2- Déterminer, par une méthode de votre choix, les quantités d'équilibre lorsque R= 10, Px= 2 et Py= 4 
-
-On sait qu'à l'équilibre :
-
-$$
-\left\{
-    \begin{array}{ll}
-TMSxy = \dfrac{Umx}{Umy} = \dfrac{Px}{Py} \\
-R = Px X =PyY
-    \end{array}
-\right.
-$$
-
-
-$$
-\left\{
-    \begin{array}{ll}
-TMSxy = \dfrac{3Y}{3X+2} = \dfrac{1}{2}\\
-5 = X + 2Y
-    \end{array}
-\right.
-$$
-
-
-Donc
-
-$$
-Y = \dfrac{17}{12} \Rightarrow X =\dfrac{13}{6}
-$$
-
-Ainsi les quantités d'équilibre :
+L’offre globale 
 
 $$
 
-(X^{*},Y^{*}) = (\dfrac{13}{6}, \dfrac{17}{12})
+Q^O = 50 𝑞𝑖= 50qi = 50(2,5P – 25) \Rightarrow  Q^O = 125P – 1250
+$$
+
+2- Calculer le prix d'équilibre
 
 $$
+
+Q^O = Q^D & \Rightarrow  125P – 1250 = -100P + 3250 \\
+        & \Rightarrow P = 20
+$$
+
+$$
+Q^O = 125(20) – 1250 = 1250
+$$
+
+
+3- Le gouvernement décide de taxer les bicyclettes de 9dh par unité produite et vendue :
+
+3.1. Quel sera le nouveau prix d'équilibre ?
+
+L’équilibre après la taxe :
+
+Le nouveau prix d’équilibre :
+
+$$
+Q^O = 125P – 1250 \Rightarrow P = 0,008Q^O + 10
+$$
+
+En ajoutant la taxe de 9dhs, la dernière équation devient :
+
+$P = 0,008Q^O + 19$ [c’est la fonction de l’offre globale]
+
+3.2. Calculer 1a quantité vendue par la branche et par chaque entreprise
+
+
+La quantité vendue par la branche et par chaque entreprise
+
+Le nouveau prix d’équilibre est tel que : $Q^O = Q^D$
+
+Nous avons  :
+
+$$
+Q^D = -100P + 3250 \Rightarrow  P = -Q^D/100 + 32,5
+$$
+
+Et nous avons trouvé que $ P = 0,008Q^O + 19$
+
+Avec $QO = QD = Q$, nous aurons : 
+
+$$
+0,008Q + 19 = -Q/100 + 32,5 \Rightarrow Q = 750 ~~ \text{[quantité vendue par la branche]}
+$$ 
+
+$$
+P = 0,008(750) + 19 \Rightarrow P = 25 
+$$
+
+La production de chaque entreprise est :
+
+$$
+qi = 750/50 \Rightarrow qi = 15
+$$
+
+
 
 ```
 
-
-###### Exercice 6
-
-
-```{admonition} Enoncé de l'exercice 6
-
-Soit un consommateur dont les préférences sont exprimées à l'aide de la fonction d'utilité suivante :
-
-
-$$
-U : \mathbb{R^{+}}^2 & \rightarrow \mathbb{R} \\
-(X, Y)   & \longmapsto X^{3/4}Y^{1/4}
-$$
-
-ou X et Y sont les quantités à consommées des biens X et Y. Posons $P_X$ et $P_Y$ les prix des biens X et Y et R le revenu du consommateur.
-
-1- Vérifier l'homogénéité de cette fonction d'utilité.
-
-2- Les courbes d'indifférence sont-elles croissantes ou décroissantes dans le plan (x, y)? Commenter le résultat obtenu
-
-3- Etudier la convexité des préférences.
-
-4- Determiner les quantités optimales associées à cette fonction. On donne $P_X=16$ , $P_Y=9$  et $R=272$.
-
-
-```
-
-
-
-```{admonition} <font color='blue'>Réponse de l'exercice 6</font>
-:class: attention, dropdown
-
-Soit un consommateur dont les choix sont exprimés à l'aide de la fonction d'utilité suivante :
-
-
-$$
-U : \mathbb{R_{+}}^2 & \rightarrow \mathbb{R} \\
-(X, Y)   & \longmapsto X^{3/4}Y^{1/4}
-$$
-
-ou X et Y sont les quantités à consommées des biens X et Y. Posons $P_X$ et $P_Y$ les prix des biens X et Y et R le revenu du consommateur.
-
-1- Vérifier l'homogénéité de cette fonction d'utilité.
-
-$$
-U(kX, kY) & = {(kX)}^{3/4}{(kY)}^{1/4}\\
-            & = k^{3/4+1/4}X^{3/4}Y^{1/4} \\
-            & = kX^{3/4}Y^{1/4} \\
-             & = k U(X,Y)
-$$
-
-Donc la fonction U est homogène de degré 1
-
-2- Les courbes d'indifférence sont-elles croissantes ou décroissantes dans le plan(x, y)? Commenter le résultat obtenu!
-
-La courbe d'indifférence de niveau $U_0 > 0$
-
-$$
-U(X, Y)= U_0 & \Rightarrow  X^{3/4}Y^{1/4}= U_0 \\
-            & \Rightarrow Y^{1/4}= \dfrac{U_0}{X^{3/4}} \\
-             & \Rightarrow Y= \dfrac{U_0^4}{X^{3}} \\
-$$
-
-On pose 
-
-$$
-Y= f_{U_0}(X)= \dfrac{U_0^4}{X^{3}}
-$$
-
-On a Pour tout $X \in \mathbb{R_{+}}$ et $U_0 \in \mathbb{R_{+}}$
-
-$$
-f_{U_0}(X)= \dfrac{U_0^4}{X^{3}} & \Rightarrow  f'_{U_0}(X)= -3\dfrac{U_0^4}{X^{4}} \\
-                                 & \Rightarrow  f'_{U_0}(X) < 0
-$$
-
-Les courbes d'indifférence sont donc décroissantes.
-
-Ainsi, si on veut maintenir le niveau d'utilité inchangé, il faut réduire la consommation d'un bien, augmenter la consommation de l'autre 
-
-3- Etudier la convexité des préférences.
-
-On a Pour tout $X \in \mathbb{R_{+}}$ et $U_0 \in \mathbb{R_{+}}$
-
-$$
-f_{U_0}(X)= \dfrac{U_0^4}{X^{3}} & \Rightarrow  f^{'}_{U_0}(X)= -3\dfrac{U_0^4}{X^{4}} \\
-                                 & \Rightarrow  f^{''}_{U_0}(X)  = 12\dfrac{U_0^4}{X^{5}} \\
-                                 & \Rightarrow  f^{''}_{U_0}(X)  >0
-$$
-
-Ainsi, les préférences sont donc strictement convexes.
-
-4- Determiner les quantités optimales associées à cette fonction. On donne $P_X=15$ , $P_Y=9$  et $R=272$.
-
-$$
-TMS_{XY} = \dfrac{Um_X}{Um_Y} = \dfrac{P_X}{P_Y} & \Rightarrow \dfrac{3Y}{X} = \dfrac{P_X}{P_Y} \\
-                                                & \Rightarrow Y = \dfrac{XP_X}{3P_Y} \\
-$$
-
-$$
-R= XP_X+YP_Y & \Rightarrow 272 = 15X+9Y \\
-             & \Rightarrow 272 = 15X+9Y \\
-             & \Rightarrow 272 = 15X+9\dfrac{XP_X}{3P_Y}  \\
-             & \Rightarrow 272 = 15X+9\dfrac{15X}{3\times 9}  \\
-             & \Rightarrow 272 = 15X+5X  \\
-             & \Rightarrow 20 X = 272 \\
-             & \Rightarrow X = 13.6 \\
-$$
-
-Donc la combinaison d'équilibre est donnée par :
-
-$$
-
-(X^{*} = 13.6, Y^{*} = 7.55)
-
-$$
-
-```
 
 ```
 

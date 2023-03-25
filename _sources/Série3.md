@@ -1,2 +1,2 @@
-### Série 3 : Fonction de la demande
+### Série 3 : Monopole
 
